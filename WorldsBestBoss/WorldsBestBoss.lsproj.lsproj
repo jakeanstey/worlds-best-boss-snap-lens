@@ -1,11 +1,11 @@
 {
-    "lens_id": "",
+    "lens_id": "8c83e633-2f3e-4275-9e8c-d650bce33294",
     "document_id": "Ehiya4O4l5c3VCgzrg9H",
     "original_document_id": "zk-fA5Wub-GTni50MfH0",
     "version": "14",
-    "lastChanged": "1555881440460",
-    "preview": "",
-    "videoPreview": "",
+    "lastChanged": "1556051774114",
+    "preview": "icon.png",
+    "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
     "isReadOnly": "false",
     "studioVersion": {
@@ -30,6 +30,12 @@
                 [
                     [
                         "Box"
+                    ],
+                    [
+                        "Matte Shadow"
+                    ],
+                    [
+                        "Plane"
                     ],
                     [
                         "StaticObjectController"
@@ -99,15 +105,18 @@
         },
         "SceneTreeUiComponent": {
             "collapsedList": [
-                [
-                    "1555857175075240:11125"
-                ]
+                ""
             ]
         },
         "MetaInfoUIComponent": {
-            "hints": "",
-            "lens": "Untitled",
-            "camera": "2",
+            "icon_hash": "df0218278825314b1154ab12f67cf827",
+            "icon_path": "icon.png",
+            "video_preview_path": "preview.mp4",
+            "hints": [
+                ""
+            ],
+            "lens": "Worlds Best Boss",
+            "camera": "1",
             "lens_descriptors": ""
         },
         "PreviewUiComponent": {
@@ -254,6 +263,22 @@
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
+                },
+                {
+                    "resId": "31",
+                    "uid": "1556050836846948:12334",
+                    "name": "Files\/File37",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "32",
+                    "uid": "1556050837082933:12350",
+                    "name": "Files\/File39.mesh",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
                 }
             ]
         },
@@ -270,21 +295,17 @@
         },
         "RenderOrderComponent": {
             "autoRenderOrder": {
-                "0": "1517446348228144:84822",
-                "1": "1555856965536652:9804",
-                "2": "1555857175075240:11125",
-                "3": "1555857175076197:11132",
-                "4": "1555857175076641:11136",
-                "5": "1555857175078309:11160",
-                "6": "1555857175079736:11184",
-                "7": "1555879014896046:44669",
-                "8": "1555880208753148:70991",
-                "9": "1555880213846060:71558",
-                "10": "1555880215876887:72013",
-                "11": "1555881368741710:83735",
-                "12": "1555881368743109:83756",
-                "13": "1555881368744273:83777",
-                "14": "1555881368745404:83798"
+                "0": "1555856965536652:9804",
+                "1": "1555857175075240:11125",
+                "2": "1555857175076197:11132",
+                "3": "1555857175076641:11136",
+                "4": "1555857175078309:11160",
+                "5": "1555857175079736:11184",
+                "6": "1555879014896046:44669",
+                "7": "1556050586631302:4557",
+                "8": "1556050837106933:12365",
+                "9": "1556051312649071:29098",
+                "10": "1556051441886364:34828"
             }
         },
         "LayerComponent": {
@@ -392,6 +413,18 @@
                 {
                     "k": "36",
                     "v": "Files\/File36.mesh"
+                },
+                {
+                    "k": "37",
+                    "v": "Files\/File37"
+                },
+                {
+                    "k": "38",
+                    "v": "Files\/File38.lsmat"
+                },
+                {
+                    "k": "39",
+                    "v": "Files\/File39.mesh"
                 }
             ]
         },
@@ -463,6 +496,14 @@
                     {
                         "k": "60",
                         "v": "Box.mesh"
+                    },
+                    {
+                        "k": "61",
+                        "v": "Matte Shadow.lsmat"
+                    },
+                    {
+                        "k": "62",
+                        "v": "Plane.mesh"
                     }
                 ],
                 "hashes": [
@@ -508,7 +549,7 @@
                     },
                     {
                         "k": "51",
-                        "v": "ce053f2e4242ed245b9bcb0e3730e112"
+                        "v": "d5199915fb4ef6d56a9bf5f8fc948a60"
                     },
                     {
                         "k": "52",
@@ -533,14 +574,22 @@
                     {
                         "k": "60",
                         "v": "0f22bac28f4bb7f9303722acb5d035e0"
+                    },
+                    {
+                        "k": "61",
+                        "v": "8aa69217829d0651082ac39659ec881c"
+                    },
+                    {
+                        "k": "62",
+                        "v": "4649d59d58657e786eebaad58a052d2a"
                     }
                 ],
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2019-04-21T16:36:54",
+                        "lastModified": "2019-04-23T16:20:37",
                         "name": "Public",
-                        "hash": "a41918bef418ebf27bc487985556798b",
+                        "hash": "d0546de61da7f29f5c9e41b4e1502d7f",
                         "children": [
                             {
                                 "isFolder": "false",
@@ -568,6 +617,20 @@
                                 "lastModified": "2019-04-10T18:23:20",
                                 "name": "folder.lock",
                                 "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                "children": ""
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2019-04-23T16:20:37",
+                                "name": "Matte Shadow.lsmat",
+                                "hash": "8aa69217829d0651082ac39659ec881c",
+                                "children": ""
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2019-04-23T16:20:36",
+                                "name": "Plane.mesh",
+                                "hash": "4649d59d58657e786eebaad58a052d2a",
                                 "children": ""
                             },
                             {
@@ -979,12 +1042,42 @@
                         "publicId": "60",
                         "source": "",
                         "additional": ""
+                    },
+                    {
+                        "name": "Matte Shadow",
+                        "type": "2",
+                        "subtype": "0",
+                        "resourceId": "31",
+                        "dependency": "0",
+                        "uid": "1556050836846948:12334",
+                        "fileId": "37",
+                        "originalId": "38",
+                        "publicId": "61",
+                        "source": "",
+                        "additional": ""
+                    },
+                    {
+                        "name": "Plane",
+                        "type": "3",
+                        "subtype": "0",
+                        "resourceId": "32",
+                        "dependency": "0",
+                        "uid": "1556050837082933:12350",
+                        "fileId": "39",
+                        "originalId": "18446744073709551615",
+                        "publicId": "62",
+                        "source": "",
+                        "additional": ""
                     }
                 ]
             }
         },
         "InspectorController": {
-            "selection": ""
+            "selection": {
+                "objects": [
+                    "1555857175079736:11184"
+                ]
+            }
         },
         "EffectsController": {
             "1": "",
